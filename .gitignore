@@ -1,0 +1,4 @@
+.idea/
+
+*.pyc
+/allure_result_folder/
