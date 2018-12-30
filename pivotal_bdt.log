@@ -127,3 +127,128 @@
 12-19 09:07 parse        DEBUG    format u'I verify project schema' -> u'I verify project schema'
 12-19 09:07 root         INFO     RequestHandler:: POST  https://www.pivotaltracker.com/services/v5//projects, {"name": "New Project1"}, {'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'User-Agent': 'python-requests/2.21.0', 'Connection': 'keep-alive', 'X-TrackerToken': '10a341fc461eedfd9162045590884d00', 'Content-Type': 'application/json'}
 12-19 09:07 root         INFO     RequestHandler:: POST RESPONSE:: 200, {u'version': 1, u'velocity_averaged_over': 3, u'updated_at': u'2018-12-19T13:07:29Z', u'iteration_length': 1, u'project_type': u'private', u'enable_tasks': True, u'id': 2233329, u'week_start_day': u'Monday', u'point_scale_is_custom': False, u'atom_enabled': False, u'public': False, u'account_id': 987701, u'bugs_and_chores_are_estimatable': False, u'automatic_planning': True, u'start_time': u'2018-12-17T08:00:00Z', u'enable_following': True, u'initial_velocity': 10, u'number_of_done_iterations_to_show': 4, u'kind': u'project', u'name': u'New Project1', u'enable_incoming_emails': True, u'current_iteration_number': 1, u'point_scale': u'0,1,2,3', u'time_zone': {u'olson_name': u'America/Los_Angeles', u'kind': u'time_zone', u'offset': u'-08:00'}, u'has_google_domain': False, u'created_at': u'2018-12-19T13:07:29Z'}
+12-25 14:37 parse        DEBUG    format u'I create a project' -> u'I create a project'
+12-25 14:37 parse        DEBUG    format u'I verify project creation status is {status_code}' -> u'I verify project creation status is (?P<status_code>.+?)'
+12-25 14:37 parse        DEBUG    format u'I verify project schema' -> u'I verify project schema'
+12-25 14:37 root         INFO     
+
+12-25 14:37 root         INFO     Feature: showing off behave                      # \features\project.feature:1
+
+12-25 14:37 root         INFO     
+
+12-25 14:37 root         INFO       Scenario: Create new project                   # \features\project.feature:3
+
+12-25 14:37 root         INFO     [A    Given I create a project                     # \features\project.feature:4
+
+12-25 14:37 root         INFO     [A    Then I verify project creation status is 200 # \features\project.feature:6
+
+12-25 14:37 root         INFO     [A    And I verify project schema                  # \features\project.feature:7
+
+12-25 14:37 root         INFO     
+
+12-25 14:37 root         INFO     1 feature (0 passed)
+
+12-25 14:37 root         INFO     1 scenario (0 passed)
+
+12-25 14:37 root         INFO     3 steps (0 passed)
+
+12-25 14:39 parse        DEBUG    format u'I create a project' -> u'I create a project'
+12-25 14:39 parse        DEBUG    format u'I verify project creation status is {status_code}' -> u'I verify project creation status is (?P<status_code>.+?)'
+12-25 14:39 parse        DEBUG    format u'I verify project schema' -> u'I verify project schema'
+12-25 14:39 root         INFO     
+
+12-25 14:39 root         INFO     Feature: showing off behave                      # \features\project.feature:1
+
+12-25 14:39 root         INFO     
+
+12-25 14:39 root         INFO       Scenario: Create new project                   # \features\project.feature:3
+
+12-25 14:39 root         INFO     [A    Given I create a project                     # \features\project.feature:4
+
+12-25 14:39 root         INFO     [A    Then I verify project creation status is 200 # \features\project.feature:6
+
+12-25 14:39 root         INFO     [A    And I verify project schema                  # \features\project.feature:7
+
+12-25 14:39 root         INFO     
+
+12-25 14:39 root         INFO     1 feature (0 passed)
+
+12-25 14:39 root         INFO     1 scenario (0 passed)
+
+12-25 14:39 root         INFO     3 steps (0 passed)
+
+12-29 17:58 parse        DEBUG    format u'I create a project' -> u'I create a project'
+12-29 17:58 parse        DEBUG    format u'I verify project creation status is {status_code}' -> u'I verify project creation status is (?P<status_code>.+?)'
+12-29 17:58 parse        DEBUG    format u'I verify project schema' -> u'I verify project schema'
+12-29 17:58 root         INFO     
+
+12-29 17:58 root         INFO     Feature: showing off behave                      # \features\project.feature:1
+
+12-29 17:58 root         INFO     
+
+12-29 17:58 root         INFO       Scenario: Create new project                   # \features\project.feature:3
+
+12-29 17:58 root         INFO     [A    Given I create a project                     # \features\project.feature:4
+
+12-29 17:58 root         INFO     [A    Then I verify project creation status is 200 # \features\project.feature:6
+
+12-29 17:58 root         INFO     [A    And I verify project schema                  # \features\project.feature:7
+
+12-29 17:58 root         INFO     
+
+12-29 17:58 root         INFO     1 feature (0 passed)
+
+12-29 17:58 root         INFO     1 scenario (0 passed)
+
+12-29 17:58 root         INFO     3 steps (0 passed)
+
+12-30 07:46 parse        DEBUG    format u'I create a project' -> u'I create a project'
+12-30 07:46 parse        DEBUG    format u'I verify project creation status is {status_code}' -> u'I verify project creation status is (?P<status_code>.+?)'
+12-30 07:46 parse        DEBUG    format u'I verify project schema' -> u'I verify project schema'
+12-30 07:46 root         INFO     
+
+12-30 07:46 root         INFO     Feature: showing off behave                      # \features\project.feature:1
+
+12-30 07:46 root         INFO     
+
+12-30 07:46 root         INFO       Scenario: Create new project                   # \features\project.feature:3
+
+12-30 07:46 root         INFO     [A    Given I create a project                     # \features\project.feature:4
+
+12-30 07:46 root         INFO     [A    Then I verify project creation status is 200 # \features\project.feature:6
+
+12-30 07:46 root         INFO     [A    And I verify project schema                  # \features\project.feature:7
+
+12-30 07:46 root         INFO     
+
+12-30 07:46 root         INFO     1 feature (0 passed)
+
+12-30 07:46 root         INFO     1 scenario (0 passed)
+
+12-30 07:46 root         INFO     3 steps (0 passed)
+
+12-30 08:14 parse        DEBUG    format u'I create a project' -> u'I create a project'
+12-30 08:14 parse        DEBUG    format u'I verify project creation status is {status_code}' -> u'I verify project creation status is (?P<status_code>.+?)'
+12-30 08:14 parse        DEBUG    format u'I verify project schema' -> u'I verify project schema'
+12-30 08:14 root         INFO     
+
+12-30 08:14 root         INFO     Feature: showing off behave                      # \features\project.feature:1
+
+12-30 08:14 root         INFO     
+
+12-30 08:14 root         INFO       Scenario: Create new project                   # \features\project.feature:3
+
+12-30 08:14 root         INFO     [A    Given I create a project                     # \features\project.feature:4
+
+12-30 08:14 root         INFO     [A    Then I verify project creation status is 200 # \features\project.feature:6
+
+12-30 08:14 root         INFO     [A    And I verify project schema                  # \features\project.feature:7
+
+12-30 08:14 root         INFO     
+
+12-30 08:14 root         INFO     1 feature (0 passed)
+
+12-30 08:14 root         INFO     1 scenario (0 passed)
+
+12-30 08:14 root         INFO     3 steps (0 passed)
+
