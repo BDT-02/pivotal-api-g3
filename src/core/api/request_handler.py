@@ -14,6 +14,12 @@ class RequestHandler:
         self.session = requests.Session()
         self.main_url = ConfigHandler.get_config().get_base_api_url()
 
+    def put_request(self, endpoint, body):
+        logger.info("RequestHandler:: PUT  {}, {}, {}".format(endpoint, json.dumps(body), self.session.headers))
+        response = self.requests_retry_session(session=self.session).put(endpoint, json.dumps(body))
+        logger.info("RequestHandler:: PUT RESPONSE:: {}, {}".format(response.status_code, response.json()))
+        return response
+
     def post_request(self, endpoint, body):
         logger.info("RequestHandler:: POST  {}, {}, {}".format(endpoint, json.dumps(body), self.session.headers))
         response = self.requests_retry_session(session=self.session).post(endpoint, json.dumps(body))

@@ -3,7 +3,7 @@ import yaml
 
 class ConfigReader:
 
-    def __init__(self, path='./config.yml'):
+    def __init__(self, path='/home/edgar/Escritorio/G3 Pivotal /ProjectEdgar/config.yml'):
         self.__path = path
         self.config = yaml.load(open(self.__path))
 
