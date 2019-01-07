@@ -1,7 +1,8 @@
 Feature: showing off behave
 
-  Scenario: Create new account
-    Given I create an account
+  Scenario: Create new workspace
+    Given I create an workspaces
+
         | name |
-    Then I verify account creation status is 200
-    And I verify account schema
+    Then I verify workspaces creation status is 200
+    And I verify workspaces schema
