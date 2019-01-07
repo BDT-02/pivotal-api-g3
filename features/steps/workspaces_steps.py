@@ -5,13 +5,13 @@ from behave import Given, then, step
 from src.pivotal_api_services.accounts import AccountServices
 from src.utils.json_schema_validator import validate_json_schema
 
-account_services = AccountServices()
+workspaces_services = AccountServices()
 
 
-@Given(u"I create an account")
-def create_account_step(context):
-    data = {"name": "AccountAI1"}
-    context.account_status, context.project_response = account_services.create_account(data)
+@Given(u"I create a workspaces")
+def create_workspaces_step(context):
+    data = {"name": "WorkspaceVZ"}
+    context.workspaces_status, context.project_response = workspaces_services.create_workspaces(data)
 
 
 
