@@ -1,7 +1,7 @@
 Feature: showing off behave
 
   Scenario: Create new workspace
-    Given I create an workspaces
+    Given I create a workspaces
 
         | name |
     Then I verify workspaces creation status is 200
