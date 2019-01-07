@@ -252,3 +252,78 @@
 
 12-30 08:14 root         INFO     3 steps (0 passed)
 
+01-06 19:07 parse        DEBUG    format u'I create a project' -> u'I create a project'
+01-06 19:07 parse        DEBUG    format u'I verify project creation status is {status_code}' -> u'I verify project creation status is (?P<status_code>.+?)'
+01-06 19:07 parse        DEBUG    format u'I verify project schema' -> u'I verify project schema'
+01-06 19:07 root         INFO     
+
+01-06 19:07 root         INFO     Feature: showing off behave                      # \features\project.feature:1
+
+01-06 19:07 root         INFO     
+
+01-06 19:07 root         INFO       Scenario: Create new account                   # \features\project.feature:3
+
+01-06 19:07 root         INFO     [A    Given I create an account                    # \features\project.feature:4
+
+01-06 19:07 root         INFO     [A    Then I verify account creation status is 200 # \features\project.feature:6
+
+01-06 19:07 root         INFO     [A    And I verify account schema                  # \features\project.feature:7
+
+01-06 19:07 root         INFO     
+
+01-06 19:07 root         INFO     1 feature (0 passed)
+
+01-06 19:07 root         INFO     1 scenario (0 passed)
+
+01-06 19:07 root         INFO     3 steps (0 passed)
+
+01-06 19:09 parse        DEBUG    format u'I create a project' -> u'I create a project'
+01-06 19:09 parse        DEBUG    format u'I verify project creation status is {status_code}' -> u'I verify project creation status is (?P<status_code>.+?)'
+01-06 19:09 parse        DEBUG    format u'I verify project schema' -> u'I verify project schema'
+01-06 19:09 root         INFO     
+
+01-06 19:09 root         INFO     Feature: showing off behave                      # \features\project.feature:1
+
+01-06 19:09 root         INFO     
+
+01-06 19:09 root         INFO       Scenario: Create new account                   # \features\project.feature:3
+
+01-06 19:09 root         INFO     [A    Given I create an account                    # \features\project.feature:4
+
+01-06 19:09 root         INFO     [A    Then I verify account creation status is 200 # \features\project.feature:6
+
+01-06 19:09 root         INFO     [A    And I verify account schema                  # \features\project.feature:7
+
+01-06 19:09 root         INFO     
+
+01-06 19:09 root         INFO     1 feature (0 passed)
+
+01-06 19:09 root         INFO     1 scenario (0 passed)
+
+01-06 19:09 root         INFO     3 steps (0 passed)
+
+01-06 20:40 parse        DEBUG    format u'I create an account' -> u'I create an account'
+01-06 20:40 parse        DEBUG    format u'I verify account creation status is {status_code}' -> u'I verify account creation status is (?P<status_code>.+?)'
+01-06 20:40 parse        DEBUG    format u'I verify account schema' -> u'I verify account schema'
+01-06 20:40 root         INFO     
+
+01-06 20:40 root         INFO     Feature: showing off behave                      # \features\account.feature:1
+
+01-06 20:40 root         INFO     
+
+01-06 20:40 root         INFO       Scenario: Create new account                   # \features\account.feature:3
+
+01-06 20:40 root         INFO     [A    Given I create an account                    # \features\account.feature:4
+
+01-06 20:40 root         INFO     [A    Then I verify account creation status is 200 # \features\account.feature:6
+
+01-06 20:40 root         INFO     [A    And I verify account schema                  # \features\account.feature:7
+
+01-06 20:40 root         INFO     
+
+01-06 20:40 root         INFO     1 feature (0 passed)
+
+01-06 20:40 root         INFO     1 scenario (0 passed)
+
+01-06 20:40 root         INFO     3 steps (0 passed)
+
