@@ -1,7 +1,6 @@
 #import time
 
-from behave import Given, then, step
-
+from behave import Given, then, when
 from src.pivotal_api_services.accounts import AccountServices
 from src.utils.json_schema_validator import validate_json_schema
 

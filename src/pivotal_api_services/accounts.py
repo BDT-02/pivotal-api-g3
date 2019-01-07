@@ -8,7 +8,7 @@ class AccountServices(PivotalServices):
 
     def __init__(self):
         super(AccountServices, self).__init__()
-        self.__account = "{}/accounts".format(self.request_handler.main_url)
+        self.__account = "{}accounts".format(self.request_handler.main_url)
         self.__account_schema_path = "/src/core/api/json_schemas/project_schema.json"
         self.account = {}
         self.accounts = {}
