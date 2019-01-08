@@ -327,6 +327,7 @@
 
 01-06 20:40 root         INFO     3 steps (0 passed)
 
+<<<<<<< HEAD
 01-08 00:04 parse        DEBUG    format u'I create an account' -> u'I create an account'
 01-08 00:04 parse        DEBUG    format u'I verify account creation status is {status_code}' -> u'I verify account creation status is (?P<status_code>.+?)'
 01-08 00:04 parse        DEBUG    format u'I verify account schema' -> u'I verify account schema'
@@ -627,3 +628,20 @@
 
 01-08 03:12 root         INFO     3 steps (0 passed)
 
+=======
+01-07 09:42 parse        DEBUG    format u'I create an account' -> u'I create an account'
+01-07 09:42 parse        DEBUG    format u'I verify account creation status is {status_code}' -> u'I verify account creation status is (?P<status_code>.+?)'
+01-07 09:42 parse        DEBUG    format u'I verify account schema' -> u'I verify account schema'
+01-07 09:42 root         INFO     RequestHandler:: POST  https://www.pivotaltracker.com/services/v5//accounts, {"name": "AccountAI1"}, {'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'User-Agent': 'python-requests/2.20.1', 'Connection': 'keep-alive', 'X-TrackerToken': 'feb72616854c799587788f51be73007a', 'Content-Type': 'application/json'}
+01-07 09:42 root         INFO     RequestHandler:: POST RESPONSE:: 404, {u'kind': u'error', u'code': u'route_not_found', u'error': u'The path you requested has no valid endpoint.'}
+01-07 09:45 parse        DEBUG    format u'I create an account' -> u'I create an account'
+01-07 09:45 parse        DEBUG    format u'I verify account creation status is {status_code}' -> u'I verify account creation status is (?P<status_code>.+?)'
+01-07 09:45 parse        DEBUG    format u'I verify account schema' -> u'I verify account schema'
+01-07 09:45 root         INFO     RequestHandler:: POST  https://www.pivotaltracker.com/services/v5//accounts, {"name": "AccountAI1"}, {'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'User-Agent': 'python-requests/2.20.1', 'Connection': 'keep-alive', 'X-TrackerToken': 'feb72616854c799587788f51be73007a', 'Content-Type': 'application/json'}
+01-07 09:45 root         INFO     RequestHandler:: POST RESPONSE:: 404, {u'kind': u'error', u'code': u'route_not_found', u'error': u'The path you requested has no valid endpoint.'}
+01-07 09:51 parse        DEBUG    format u'I create an account' -> u'I create an account'
+01-07 09:51 parse        DEBUG    format u'I verify account creation status is {status_code}' -> u'I verify account creation status is (?P<status_code>.+?)'
+01-07 09:51 parse        DEBUG    format u'I verify account schema' -> u'I verify account schema'
+01-07 09:51 root         INFO     RequestHandler:: POST  https://www.pivotaltracker.com/services/v5/accounts, {"name": "AccountAI1"}, {'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'User-Agent': 'python-requests/2.20.1', 'Connection': 'keep-alive', 'X-TrackerToken': 'feb72616854c799587788f51be73007a', 'Content-Type': 'application/json'}
+01-07 09:51 root         INFO     RequestHandler:: POST RESPONSE:: 404, {u'kind': u'error', u'code': u'route_not_found', u'error': u'The path you requested has no valid endpoint.'}
+>>>>>>> 99a38f6f5fb6c3de2b732264aebe6840820bf598
