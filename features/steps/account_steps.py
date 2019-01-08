@@ -1,6 +1,4 @@
-#import time
-
-from behave import Given, then, step
+from behave import Given, Then, step
 
 from src.pivotal_api_services.accounts import AccountServices
 from src.utils.json_schema_validator import validate_json_schema
@@ -10,15 +8,14 @@ account_services = AccountServices()
 
 @Given(u"I create an account")
 def create_account_step(context):
-    data = {"name": "AccountAI1"}
+    data = {"account%5Bname%5D": "AccoBBB"}
     context.account_status, context.project_response = account_services.create_account(data)
 
 
-
-@then(u'I verify account creation status is {status_code}')
+@Then(u'I verify account creation status is {status_code}')
 def step_impl(context, status_code):
     print(context.account_status)
-    assert context.account_status == status_code, "Account creation status is %s" % status_code
+    assert context.account_status == int(status_code), "Account creation status is %s" % status_code
 
 
 @step(u'I verify account schema')

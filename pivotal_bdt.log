@@ -327,3 +327,303 @@
 
 01-06 20:40 root         INFO     3 steps (0 passed)
 
+01-08 00:04 parse        DEBUG    format u'I create an account' -> u'I create an account'
+01-08 00:04 parse        DEBUG    format u'I verify account creation status is {status_code}' -> u'I verify account creation status is (?P<status_code>.+?)'
+01-08 00:04 parse        DEBUG    format u'I verify account schema' -> u'I verify account schema'
+01-08 00:04 root         INFO     
+
+01-08 00:04 root         INFO     Feature: showing off behave                      # \features\account.feature:1
+
+01-08 00:04 root         INFO     
+
+01-08 00:04 root         INFO       Scenario: Create new account                   # \features\account.feature:3
+
+01-08 00:04 root         INFO     [A    Given I create an account                    # \features\account.feature:4
+
+01-08 00:04 root         INFO     [A    Then I verify account creation status is 200 # \features\account.feature:6
+
+01-08 00:04 root         INFO     [A    And I verify account schema                  # \features\account.feature:7
+
+01-08 00:04 root         INFO     
+
+01-08 00:04 root         INFO     1 feature (0 passed)
+
+01-08 00:04 root         INFO     1 scenario (0 passed)
+
+01-08 00:04 root         INFO     3 steps (0 passed)
+
+01-08 01:42 parse        DEBUG    format u'I create an account' -> u'I create an account'
+01-08 01:42 parse        DEBUG    format u'I verify account creation status is {status_code}' -> u'I verify account creation status is (?P<status_code>.+?)'
+01-08 01:42 parse        DEBUG    format u'I verify account schema' -> u'I verify account schema'
+01-08 01:42 root         INFO     
+
+01-08 01:42 root         INFO     Feature: showing off behave                      # \features\account.feature:1
+
+01-08 01:42 root         INFO     
+
+01-08 01:42 root         INFO       Scenario: Create new account                   # \features\account.feature:3
+
+01-08 01:42 root         INFO     [A    Given I create an account                    # \features\account.feature:4
+
+01-08 01:42 root         INFO     [A    Then I verify account creation status is 200 # \features\account.feature:6
+
+01-08 01:42 root         INFO     [A    And I verify account schema                  # \features\account.feature:7
+
+01-08 01:42 root         INFO     
+
+01-08 01:42 root         INFO     1 feature (0 passed)
+
+01-08 01:42 root         INFO     1 scenario (0 passed)
+
+01-08 01:42 root         INFO     3 steps (0 passed)
+
+01-08 01:45 parse        DEBUG    format u'I create an account' -> u'I create an account'
+01-08 01:45 parse        DEBUG    format u'I verify account creation status is {status_code}' -> u'I verify account creation status is (?P<status_code>.+?)'
+01-08 01:45 parse        DEBUG    format u'I verify account schema' -> u'I verify account schema'
+01-08 01:45 root         INFO     
+
+01-08 01:45 root         INFO     Feature: showing off behave                      # \features\account.feature:1
+
+01-08 01:45 root         INFO     
+
+01-08 01:45 root         INFO       Scenario: Create new account                   # \features\account.feature:3
+
+01-08 01:45 root         INFO     [A    Given I create an account                    # \features\account.feature:4
+
+01-08 01:45 root         INFO     [A    Then I verify account creation status is 200 # \features\account.feature:6
+
+01-08 01:45 root         INFO     [A    And I verify account schema                  # \features\account.feature:7
+
+01-08 01:45 root         INFO     
+
+01-08 01:45 root         INFO     1 feature (0 passed)
+
+01-08 01:45 root         INFO     1 scenario (0 passed)
+
+01-08 01:45 root         INFO     3 steps (0 passed)
+
+01-08 02:01 parse        DEBUG    format u'I create an account' -> u'I create an account'
+01-08 02:01 parse        DEBUG    format u'I verify account creation status is {status_code}' -> u'I verify account creation status is (?P<status_code>.+?)'
+01-08 02:01 parse        DEBUG    format u'I verify account schema' -> u'I verify account schema'
+01-08 02:01 root         INFO     
+
+01-08 02:01 root         INFO     Feature: showing off behave                      # \features\account.feature:1
+
+01-08 02:01 root         INFO     
+
+01-08 02:01 root         INFO       Scenario: Create new account                   # \features\account.feature:3
+
+01-08 02:01 root         INFO     [A    Given I create an account                    # \features\account.feature:4
+
+01-08 02:01 root         INFO     [A    Then I verify account creation status is 200 # \features\account.feature:6
+
+01-08 02:01 root         INFO     [A    And I verify account schema                  # \features\account.feature:7
+
+01-08 02:01 root         INFO     
+
+01-08 02:01 root         INFO     1 feature (0 passed)
+
+01-08 02:01 root         INFO     1 scenario (0 passed)
+
+01-08 02:01 root         INFO     3 steps (0 passed)
+
+01-08 02:07 parse        DEBUG    format u'I create an account' -> u'I create an account'
+01-08 02:07 parse        DEBUG    format u'I verify account creation status is {status_code}' -> u'I verify account creation status is (?P<status_code>.+?)'
+01-08 02:07 parse        DEBUG    format u'I verify account schema' -> u'I verify account schema'
+01-08 02:07 root         INFO     
+
+01-08 02:07 root         INFO     Feature: showing off behave                      # \features\account.feature:1
+
+01-08 02:07 root         INFO     
+
+01-08 02:07 root         INFO       Scenario: Create new account                   # \features\account.feature:3
+
+01-08 02:07 root         INFO     [A    Given I create an account                    # \features\account.feature:4
+
+01-08 02:07 root         INFO     [A    Then I verify account creation status is 200 # \features\account.feature:6
+
+01-08 02:07 root         INFO     [A    And I verify account schema                  # \features\account.feature:7
+
+01-08 02:07 root         INFO     
+
+01-08 02:07 root         INFO     1 feature (0 passed)
+
+01-08 02:07 root         INFO     1 scenario (0 passed)
+
+01-08 02:07 root         INFO     3 steps (0 passed)
+
+01-08 02:17 parse        DEBUG    format u'I create an account' -> u'I create an account'
+01-08 02:17 parse        DEBUG    format u'I verify account creation status is {status_code}' -> u'I verify account creation status is (?P<status_code>.+?)'
+01-08 02:17 parse        DEBUG    format u'I verify account schema' -> u'I verify account schema'
+01-08 02:17 root         INFO     
+
+01-08 02:17 root         INFO     Feature: showing off behave                      # \features\account.feature:1
+
+01-08 02:17 root         INFO     
+
+01-08 02:17 root         INFO       Scenario: Create new account                   # \features\account.feature:3
+
+01-08 02:17 root         INFO     [A    Given I create an account                    # \features\account.feature:4
+
+01-08 02:17 root         INFO     [A    Then I verify account creation status is 200 # \features\account.feature:6
+
+01-08 02:17 root         INFO     [A    And I verify account schema                  # \features\account.feature:7
+
+01-08 02:17 root         INFO     
+
+01-08 02:17 root         INFO     1 feature (0 passed)
+
+01-08 02:17 root         INFO     1 scenario (0 passed)
+
+01-08 02:17 root         INFO     3 steps (0 passed)
+
+01-08 02:32 parse        DEBUG    format u'I create an account' -> u'I create an account'
+01-08 02:32 parse        DEBUG    format u'I verify account creation status is {status_code}' -> u'I verify account creation status is (?P<status_code>.+?)'
+01-08 02:32 parse        DEBUG    format u'I verify account schema' -> u'I verify account schema'
+01-08 02:32 root         INFO     
+
+01-08 02:32 root         INFO     Feature: showing off behave                      # \features\account.feature:1
+
+01-08 02:32 root         INFO     
+
+01-08 02:32 root         INFO       Scenario: Create new account                   # \features\account.feature:3
+
+01-08 02:32 root         INFO     [A    Given I create an account                    # \features\account.feature:4
+
+01-08 02:32 root         INFO     [A    Then I verify account creation status is 200 # \features\account.feature:6
+
+01-08 02:32 root         INFO     [A    And I verify account schema                  # \features\account.feature:7
+
+01-08 02:32 root         INFO     
+
+01-08 02:32 root         INFO     1 feature (0 passed)
+
+01-08 02:32 root         INFO     1 scenario (0 passed)
+
+01-08 02:32 root         INFO     3 steps (0 passed)
+
+01-08 02:53 parse        DEBUG    format u'I create an account' -> u'I create an account'
+01-08 02:53 parse        DEBUG    format u'I verify account creation status is {status_code}' -> u'I verify account creation status is (?P<status_code>.+?)'
+01-08 02:53 parse        DEBUG    format u'I verify account schema' -> u'I verify account schema'
+01-08 02:53 root         INFO     
+
+01-08 02:53 root         INFO     Feature: showing off behave                      # \features\account.feature:1
+
+01-08 02:53 root         INFO     
+
+01-08 02:53 root         INFO       Scenario: Create new account                   # \features\account.feature:3
+
+01-08 02:53 root         INFO     [A    Given I create an account                    # \features\account.feature:4
+
+01-08 02:53 root         INFO     [A    Then I verify account creation status is 200 # \features\account.feature:6
+
+01-08 02:53 root         INFO     [A    And I verify account schema                  # \features\account.feature:7
+
+01-08 02:53 root         INFO     
+
+01-08 02:53 root         INFO     1 feature (0 passed)
+
+01-08 02:53 root         INFO     1 scenario (0 passed)
+
+01-08 02:53 root         INFO     3 steps (0 passed)
+
+01-08 03:00 parse        DEBUG    format u'I create an account' -> u'I create an account'
+01-08 03:00 parse        DEBUG    format u'I verify account creation status is {status_code}' -> u'I verify account creation status is (?P<status_code>.+?)'
+01-08 03:00 parse        DEBUG    format u'I verify account schema' -> u'I verify account schema'
+01-08 03:00 root         INFO     
+
+01-08 03:00 root         INFO     Feature: showing off behave                      # \features\account.feature:1
+
+01-08 03:00 root         INFO     
+
+01-08 03:00 root         INFO       Scenario: Create new account                   # \features\account.feature:3
+
+01-08 03:00 root         INFO     [A    Given I create an account                    # \features\account.feature:4
+
+01-08 03:00 root         INFO     [A    Then I verify account creation status is 200 # \features\account.feature:6
+
+01-08 03:00 root         INFO     [A    And I verify account schema                  # \features\account.feature:7
+
+01-08 03:00 root         INFO     
+
+01-08 03:00 root         INFO     1 feature (0 passed)
+
+01-08 03:00 root         INFO     1 scenario (0 passed)
+
+01-08 03:00 root         INFO     3 steps (0 passed)
+
+01-08 03:06 parse        DEBUG    format u'I create an account' -> u'I create an account'
+01-08 03:06 parse        DEBUG    format u'I verify account creation status is {status_code}' -> u'I verify account creation status is (?P<status_code>.+?)'
+01-08 03:06 parse        DEBUG    format u'I verify account schema' -> u'I verify account schema'
+01-08 03:06 root         INFO     
+
+01-08 03:06 root         INFO     Feature: showing off behave                      # \features\account.feature:1
+
+01-08 03:06 root         INFO     
+
+01-08 03:06 root         INFO       Scenario: Create new account                   # \features\account.feature:3
+
+01-08 03:06 root         INFO     [A    Given I create an account                    # \features\account.feature:4
+
+01-08 03:06 root         INFO     [A    Then I verify account creation status is 200 # \features\account.feature:6
+
+01-08 03:06 root         INFO     [A    And I verify account schema                  # \features\account.feature:7
+
+01-08 03:06 root         INFO     
+
+01-08 03:06 root         INFO     1 feature (0 passed)
+
+01-08 03:06 root         INFO     1 scenario (0 passed)
+
+01-08 03:06 root         INFO     3 steps (0 passed)
+
+01-08 03:06 parse        DEBUG    format u'I create an account' -> u'I create an account'
+01-08 03:06 parse        DEBUG    format u'I verify account creation status is {status_code}' -> u'I verify account creation status is (?P<status_code>.+?)'
+01-08 03:06 parse        DEBUG    format u'I verify account schema' -> u'I verify account schema'
+01-08 03:06 root         INFO     
+
+01-08 03:06 root         INFO     Feature: showing off behave                      # \features\account.feature:1
+
+01-08 03:06 root         INFO     
+
+01-08 03:06 root         INFO       Scenario: Create new account                   # \features\account.feature:3
+
+01-08 03:06 root         INFO     [A    Given I create an account                    # \features\account.feature:4
+
+01-08 03:06 root         INFO     [A    Then I verify account creation status is 200 # \features\account.feature:6
+
+01-08 03:06 root         INFO     [A    And I verify account schema                  # \features\account.feature:7
+
+01-08 03:06 root         INFO     
+
+01-08 03:06 root         INFO     1 feature (0 passed)
+
+01-08 03:06 root         INFO     1 scenario (0 passed)
+
+01-08 03:06 root         INFO     3 steps (0 passed)
+
+01-08 03:12 parse        DEBUG    format u'I create an account' -> u'I create an account'
+01-08 03:12 parse        DEBUG    format u'I verify account creation status is {status_code}' -> u'I verify account creation status is (?P<status_code>.+?)'
+01-08 03:12 parse        DEBUG    format u'I verify account schema' -> u'I verify account schema'
+01-08 03:12 root         INFO     
+
+01-08 03:12 root         INFO     Feature: showing off behave                      # \features\account.feature:1
+
+01-08 03:12 root         INFO     
+
+01-08 03:12 root         INFO       Scenario: Create new account                   # \features\account.feature:3
+
+01-08 03:12 root         INFO     [A    Given I create an account                    # \features\account.feature:4
+
+01-08 03:12 root         INFO     [A    Then I verify account creation status is 200 # \features\account.feature:6
+
+01-08 03:12 root         INFO     [A    And I verify account schema                  # \features\account.feature:7
+
+01-08 03:12 root         INFO     
+
+01-08 03:12 root         INFO     1 feature (0 passed)
+
+01-08 03:12 root         INFO     1 scenario (0 passed)
+
+01-08 03:12 root         INFO     3 steps (0 passed)
+
