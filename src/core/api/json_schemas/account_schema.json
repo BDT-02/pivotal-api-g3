@@ -5,61 +5,83 @@
   "type": "object",
   "title": "The Root Schema",
   "required": [
-    "created at",
-    "updated at",
+    "kind",
+    "id",
     "name",
     "plan",
-    "status"
-   ],
-   "properties": {
-     "created at": {
-       "$id": "#/properties/created at",
-       "type": "string",
-       "title": "The Created at Schema",
-       "default": "",
-       "examples": [
-         "2019-01-07T21:42:45Z"
-       ],
-       "pattern": "^(.*)$"
-     },
-     "updated at": {
-       "$id": "#/properties/updated at",
-       "type": "string",
-       "title": "The Updated at Schema",
-       "default": "",
-       "examples": [
-         "2019-01-07T21:42:45Z"
-       ],
-       "pattern": "^(.*)$"
-     },
-     "name": {
-       "$id": "#/properties/name",
-       "type": "string",
-       "title": "The Name Schema",
-       "default": "",
-       "examples": [
-         "A green door"
-       ],
-       "pattern": "^(.*)$"
-     },
-     "plan": {
-       "$id": "#/properties/plan",
-       "type": "string",
-       "title": "The Plan Schema",
-       "default": "",
-       "examples": [
-         "Test"
-       ],
-       "pattern": "^(.*)$"
-     },
-     "status": {
-       "$id": "#/properties/status",
-       "type": "integer",
-       "title": "The Status Schema",
-       "default": 0,
-       "examples": [
-         200
-       ]
-     }
-   }
- }
+    "status",
+    "created_at",
+    "updated_at"
+  ],
+  "properties": {
+    "kind": {
+      "$id": "#/properties/kind",
+      "type": "string",
+      "title": "The Kind Schema",
+      "default": "",
+      "examples": [
+        "account"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "id": {
+      "$id": "#/properties/id",
+      "type": "integer",
+      "title": "The Id Schema",
+      "default": 0,
+      "examples": [
+        1077596
+      ]
+    },
+    "name": {
+      "$id": "#/properties/name",
+      "type": "string",
+      "title": "The Name Schema",
+      "default": "",
+      "examples": [
+        "MFA123132323"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "plan": {
+      "$id": "#/properties/plan",
+      "type": "string",
+      "title": "The Plan Schema",
+      "default": "",
+      "examples": [
+        "Free"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "status": {
+      "$id": "#/properties/status",
+      "type": "string",
+      "title": "The Status Schema",
+      "default": "",
+      "examples": [
+        "active"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "created_at": {
+      "$id": "#/properties/created_at",
+      "type": "string",
+      "title": "The Created_at Schema",
+      "default": "",
+      "examples": [
+        "2019-01-06T21:42:45Z"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "updated_at": {
+      "$id": "#/properties/updated_at",
+      "type": "string",
+      "title": "The Updated_at Schema",
+      "default": "",
+      "examples": [
+        "2019-01-06T21:42:45Z"
+      ],
+      "pattern": "^(.*)$"
+    }
+  }
+}

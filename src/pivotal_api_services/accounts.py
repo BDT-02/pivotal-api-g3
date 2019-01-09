@@ -10,11 +10,7 @@ class AccountServices(PivotalServices):
     def __init__(self):
         super(AccountServices, self).__init__()
         self.__account = "{}accounts".format(self.request_handler.main_url)
-<<<<<<< HEAD
         self.__account_schema_path = "/src/core/api/json_schemas/account_schema.json"
-=======
-        self.__account_schema_path = "/src/core/api/json_schemas/project_schema.json"
->>>>>>> 99a38f6f5fb6c3de2b732264aebe6840820bf598
         self.account = {}
         self.accounts = {}
 
@@ -22,12 +18,12 @@ class AccountServices(PivotalServices):
         response = self.request_handler.post_request(endpoint=self.__account, body=data)
         return response.status_code, response.json()
 
-    def get_accounts(self):
-        account_list = self.request_handler.get_request(endpoint=self.__account).json()
-        for account in account_list:
-            if not account['name'] in self.accounts:
-                self.accounts[account['name']] = account['id']
-        return self.accounts
+   # def get_accounts(self):
+    #    account_list = self.request_handler.get_request(endpoint=self.__account).json()
+     #   for account in account_list:
+      #      if not account['name'] in self.accounts:
+       #         self.accounts[account['name']] = account['id']
+       # return self.accounts
 
     def get_account(self, id):
         current_url = self.__account + "/" + id
