@@ -8,31 +8,31 @@ class WorkspacesServices(PivotalServices):
 
     def __init__(self):
         super(WorkspacesServices, self).__init__()
-        self.__account = "{}/accounts".format(self.request_handler.main_url)
-        self.__account_schema_path = "/src/core/api/json_schemas/project_schema.json"
-        self.account = {}
-        self.accounts = {}
+        self.__workspace = "{}/accounts".format(self.request_handler.main_url)
+        self.__workspace_schema_path = "/src/core/api/json_schemas/project_schema.json"
+        self.workspace = {}
+        self.workspace = {}
 
-    def create_account(self, data):
-        response = self.request_handler.post_request(endpoint=self.__account, body=data)
+    def create_workspace(self, data):
+        response = self.request_handler.post_request(endpoint=self.__workspace, body=data)
         return response.status_code, response.json()
 
-    def get_accounts(self):
-        account_list = self.request_handler.get_request(endpoint=self.__account).json()
-        for account in account_list:
-            if not account['name'] in self.accounts:
-                self.accounts[account['name']] = account['id']
-        return self.accounts
+    def get_workspace(self):
+        workspace_list = self.request_handler.get_request(endpoint=self.__workspace).json()
+        for workspace in workspace_list:
+            if not workspace['name'] in self.workspace:
+                self.workspaces[workspace['name']] = workspace['id']
+        return self.workspaces
 
-    def get_account(self, id):
-        current_url = self.__account + "/" + id
-        account = self.request_handler.get_request(endpoint=current_url).json()
-        if not account['name'] in self.accounts:
-            self.accounts[account['name']] = account['id']
-        return account
+    def get_workspace(self, id):
+        current_url = self.__workspace + "/" + id
+        workspace = self.request_handler.get_request(endpoint=current_url).json()
+        if not workspace['name'] in self.workspaces:
+            self.workspaces[workspace['name']] = workspace['id']
+        return workspace
 
-    def get_account_schema(self):
-        return StringHandler.convert_string_to_json(FileReader.get_file_content(self.__account_schema_path))
+    def get_workspace_schema(self):
+        return StringHandler.convert_string_to_json(FileReader.get_file_content(self.__workspace_schema_path))
 
   #  def delete_all_projects(self):
    #     self.get_projects()
