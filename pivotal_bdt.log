@@ -327,3 +327,85 @@
 
 01-06 20:40 root         INFO     3 steps (0 passed)
 
+01-09 08:52 parse        DEBUG    format u'I create a workspaces' -> u'I create a workspaces'
+01-09 08:52 parse        DEBUG    format u'I verify workspaces creation status is {status_code}' -> u'I verify workspaces creation status is (?P<status_code>.+?)'
+01-09 08:52 parse        DEBUG    format u'I verify workspaces schema' -> u'I verify workspaces schema'
+01-09 08:53 parse        DEBUG    format u'I create a workspaces' -> u'I create a workspaces'
+01-09 08:53 parse        DEBUG    format u'I verify workspaces creation status is {status_code}' -> u'I verify workspaces creation status is (?P<status_code>.+?)'
+01-09 08:53 parse        DEBUG    format u'I verify workspaces schema' -> u'I verify workspaces schema'
+01-09 08:56 parse        DEBUG    format u'I create a workspaces' -> u'I create a workspaces'
+01-09 08:56 parse        DEBUG    format u'I verify workspaces creation status is {status_code}' -> u'I verify workspaces creation status is (?P<status_code>.+?)'
+01-09 08:56 parse        DEBUG    format u'I verify workspaces schema' -> u'I verify workspaces schema'
+01-09 08:57 parse        DEBUG    format u'I create a workspaces' -> u'I create a workspaces'
+01-09 08:57 parse        DEBUG    format u'I verify workspaces creation status is {status_code}' -> u'I verify workspaces creation status is (?P<status_code>.+?)'
+01-09 08:57 parse        DEBUG    format u'I verify workspaces schema' -> u'I verify workspaces schema'
+01-09 08:57 root         INFO     RequestHandler:: POST  https://www.pivotaltracker.com/services/v5//accounts, {"name": "WorkspaceVZ"}, {'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'User-Agent': 'python-requests/2.20.1', 'Connection': 'keep-alive', 'X-TrackerToken': 'eca773db1a05aa626fea42c73f6384d2', 'Content-Type': 'application/json'}
+01-09 08:57 root         INFO     RequestHandler:: POST RESPONSE:: 404, {u'kind': u'error', u'code': u'route_not_found', u'error': u'The path you requested has no valid endpoint.'}
+01-09 08:58 parse        DEBUG    format u'I create a workspaces' -> u'I create a workspaces'
+01-09 08:58 parse        DEBUG    format u'I verify workspaces creation status is {status_code}' -> u'I verify workspaces creation status is (?P<status_code>.+?)'
+01-09 08:58 parse        DEBUG    format u'I verify workspaces schema' -> u'I verify workspaces schema'
+01-09 09:00 parse        DEBUG    format u'I create a workspaces' -> u'I create a workspaces'
+01-09 09:00 parse        DEBUG    format u'I verify workspaces schema' -> u'I verify workspaces schema'
+01-09 09:04 parse        DEBUG    format u'I create a workspaces' -> u'I create a workspaces'
+01-09 09:04 parse        DEBUG    format u'I verify workspaces creation status is {status_code}' -> u'I verify workspaces creation status is (?P<status_code>.+?)'
+01-09 09:04 parse        DEBUG    format u'I verify workspaces schema' -> u'I verify workspaces schema'
+01-09 09:04 root         INFO     RequestHandler:: POST  https://www.pivotaltracker.com/services/v5//workspaces, {"name": "WorkspaceVZ"}, {'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'User-Agent': 'python-requests/2.20.1', 'Connection': 'keep-alive', 'X-TrackerToken': 'eca773db1a05aa626fea42c73f6384d2', 'Content-Type': 'application/json'}
+01-09 09:04 root         INFO     RequestHandler:: POST RESPONSE:: 404, {u'kind': u'error', u'code': u'route_not_found', u'error': u'The path you requested has no valid endpoint.'}
+01-09 09:06 parse        DEBUG    format u'I create a workspaces' -> u'I create a workspaces'
+01-09 09:06 parse        DEBUG    format u'I verify workspaces creation status is {status_code}' -> u'I verify workspaces creation status is (?P<status_code>.+?)'
+01-09 09:06 parse        DEBUG    format u'I verify workspaces schema' -> u'I verify workspaces schema'
+01-09 09:06 root         INFO     RequestHandler:: POST  https://www.pivotaltracker.com/services/v5/my/workspaces/workspaces, {"name": "WorkspaceVZ"}, {'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'User-Agent': 'python-requests/2.20.1', 'Connection': 'keep-alive', 'X-TrackerToken': 'eca773db1a05aa626fea42c73f6384d2', 'Content-Type': 'application/json'}
+01-09 09:06 root         INFO     RequestHandler:: POST RESPONSE:: 404, {u'kind': u'error', u'code': u'route_not_found', u'error': u'The path you requested has no valid endpoint.'}
+01-09 09:08 parse        DEBUG    format u'I create a workspaces' -> u'I create a workspaces'
+01-09 09:08 parse        DEBUG    format u'I verify workspaces creation status is {status_code}' -> u'I verify workspaces creation status is (?P<status_code>.+?)'
+01-09 09:08 parse        DEBUG    format u'I verify workspaces schema' -> u'I verify workspaces schema'
+01-09 09:08 root         INFO     RequestHandler:: POST  https://www.pivotaltracker.com/services/v5/my/workspacesworkspaces, {"name": "WorkspaceVZ"}, {'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'User-Agent': 'python-requests/2.20.1', 'Connection': 'keep-alive', 'X-TrackerToken': 'eca773db1a05aa626fea42c73f6384d2', 'Content-Type': 'application/json'}
+01-09 09:08 root         INFO     RequestHandler:: POST RESPONSE:: 404, {u'kind': u'error', u'code': u'route_not_found', u'error': u'The path you requested has no valid endpoint.'}
+01-09 09:08 parse        DEBUG    format u'I create a workspaces' -> u'I create a workspaces'
+01-09 09:08 parse        DEBUG    format u'I verify workspaces creation status is {status_code}' -> u'I verify workspaces creation status is (?P<status_code>.+?)'
+01-09 09:08 parse        DEBUG    format u'I verify workspaces schema' -> u'I verify workspaces schema'
+01-09 09:08 root         INFO     RequestHandler:: POST  https://www.pivotaltracker.com/services/v5/my/workspaces/workspaces, {"name": "WorkspaceVZ"}, {'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'User-Agent': 'python-requests/2.20.1', 'Connection': 'keep-alive', 'X-TrackerToken': 'eca773db1a05aa626fea42c73f6384d2', 'Content-Type': 'application/json'}
+01-09 09:09 root         INFO     RequestHandler:: POST RESPONSE:: 404, {u'kind': u'error', u'code': u'route_not_found', u'error': u'The path you requested has no valid endpoint.'}
+01-09 09:11 parse        DEBUG    format u'I create a workspaces' -> u'I create a workspaces'
+01-09 09:11 parse        DEBUG    format u'I verify workspaces creation status is {status_code}' -> u'I verify workspaces creation status is (?P<status_code>.+?)'
+01-09 09:11 parse        DEBUG    format u'I verify workspaces schema' -> u'I verify workspaces schema'
+01-09 09:11 root         INFO     RequestHandler:: POST  https://www.pivotaltracker.com/services/v5/my/workspaces, {"name": "WorkspaceVZ"}, {'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'User-Agent': 'python-requests/2.20.1', 'Connection': 'keep-alive', 'X-TrackerToken': 'eca773db1a05aa626fea42c73f6384d2', 'Content-Type': 'application/json'}
+01-09 09:11 root         INFO     RequestHandler:: POST RESPONSE:: 200, {u'person_id': 3128917, u'kind': u'workspace', u'project_ids': [], u'id': 722856, u'name': u'WorkspaceVZ'}
+01-09 09:13 parse        DEBUG    format u'I create a workspaces' -> u'I create a workspaces'
+01-09 09:13 parse        DEBUG    format u'I verify workspaces creation status is {status_code}' -> u'I verify workspaces creation status is (?P<status_code>.+?)'
+01-09 09:13 parse        DEBUG    format u'I verify workspaces schema' -> u'I verify workspaces schema'
+01-09 09:13 root         INFO     RequestHandler:: POST  https://www.pivotaltracker.com/services/v5/my/workspaces/workspaces, {"name": "WorkspaceVZ"}, {'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'User-Agent': 'python-requests/2.20.1', 'Connection': 'keep-alive', 'X-TrackerToken': 'eca773db1a05aa626fea42c73f6384d2', 'Content-Type': 'application/json'}
+01-09 09:13 root         INFO     RequestHandler:: POST RESPONSE:: 404, {u'kind': u'error', u'code': u'route_not_found', u'error': u'The path you requested has no valid endpoint.'}
+01-09 09:14 parse        DEBUG    format u'I create a workspaces' -> u'I create a workspaces'
+01-09 09:14 parse        DEBUG    format u'I verify workspaces creation status is {status_code}' -> u'I verify workspaces creation status is (?P<status_code>.+?)'
+01-09 09:14 parse        DEBUG    format u'I verify workspaces schema' -> u'I verify workspaces schema'
+01-09 09:15 parse        DEBUG    format u'I create workspaces' -> u'I create workspaces'
+01-09 09:15 parse        DEBUG    format u'I verify workspaces creation status is {status_code}' -> u'I verify workspaces creation status is (?P<status_code>.+?)'
+01-09 09:15 parse        DEBUG    format u'I verify workspaces schema' -> u'I verify workspaces schema'
+01-09 09:15 root         INFO     RequestHandler:: POST  https://www.pivotaltracker.com/services/v5/my/workspaces/workspaces, {"name": "WorkspaceVZ"}, {'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'User-Agent': 'python-requests/2.20.1', 'Connection': 'keep-alive', 'X-TrackerToken': 'eca773db1a05aa626fea42c73f6384d2', 'Content-Type': 'application/json'}
+01-09 09:15 root         INFO     RequestHandler:: POST RESPONSE:: 404, {u'kind': u'error', u'code': u'route_not_found', u'error': u'The path you requested has no valid endpoint.'}
+01-09 09:17 parse        DEBUG    format u'I create workspaces' -> u'I create workspaces'
+01-09 09:17 parse        DEBUG    format u'I verify workspaces creation status is {status_code}' -> u'I verify workspaces creation status is (?P<status_code>.+?)'
+01-09 09:17 parse        DEBUG    format u'I verify workspaces schema' -> u'I verify workspaces schema'
+01-09 09:17 root         INFO     RequestHandler:: POST  https://www.pivotaltracker.com/services/v5/my/workspaces/workspaces, {"name": "Workspace2"}, {'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'User-Agent': 'python-requests/2.20.1', 'Connection': 'keep-alive', 'X-TrackerToken': 'eca773db1a05aa626fea42c73f6384d2', 'Content-Type': 'application/json'}
+01-09 09:17 root         INFO     RequestHandler:: POST RESPONSE:: 404, {u'kind': u'error', u'code': u'route_not_found', u'error': u'The path you requested has no valid endpoint.'}
+01-09 09:23 parse        DEBUG    format u'I create workspaces' -> u'I create workspaces'
+01-09 09:23 parse        DEBUG    format u'I verify workspaces schema' -> u'I verify workspaces schema'
+01-09 09:23 root         INFO     RequestHandler:: POST  https://www.pivotaltracker.com/services/v5/my/workspaces/workspaces, {"name": "Workspace2"}, {'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'User-Agent': 'python-requests/2.20.1', 'Connection': 'keep-alive', 'X-TrackerToken': 'eca773db1a05aa626fea42c73f6384d2', 'Content-Type': 'application/json'}
+01-09 09:23 root         INFO     RequestHandler:: POST RESPONSE:: 404, {u'kind': u'error', u'code': u'route_not_found', u'error': u'The path you requested has no valid endpoint.'}
+01-09 09:25 parse        DEBUG    format u'I create workspaces' -> u'I create workspaces'
+01-09 09:25 parse        DEBUG    format u'I verify workspaces schema' -> u'I verify workspaces schema'
+01-09 09:25 root         INFO     RequestHandler:: POST  https://www.pivotaltracker.com/services/v5/my/workspaces/workspaces, {"name": "Workspace2"}, {'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'User-Agent': 'python-requests/2.20.1', 'Connection': 'keep-alive', 'X-TrackerToken': 'eca773db1a05aa626fea42c73f6384d2', 'Content-Type': 'application/json'}
+01-09 09:25 root         INFO     RequestHandler:: POST RESPONSE:: 404, {u'kind': u'error', u'code': u'route_not_found', u'error': u'The path you requested has no valid endpoint.'}
+01-09 09:31 parse        DEBUG    format u'I create workspaces' -> u'I create workspaces'
+01-09 09:31 parse        DEBUG    format u'I verify workspaces schema' -> u'I verify workspaces schema'
+01-09 09:31 root         INFO     RequestHandler:: POST  https://www.pivotaltracker.com/services/v5/my/workspaces, {"name": "Workspace2"}, {'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'User-Agent': 'python-requests/2.20.1', 'Connection': 'keep-alive', 'X-TrackerToken': 'eca773db1a05aa626fea42c73f6384d2', 'Content-Type': 'application/json'}
+01-09 09:31 root         INFO     RequestHandler:: POST RESPONSE:: 200, {u'person_id': 3128917, u'kind': u'workspace', u'project_ids': [], u'id': 722867, u'name': u'Workspace2'}
+01-09 09:33 parse        DEBUG    format u'I create workspaces' -> u'I create workspaces'
+01-09 09:33 parse        DEBUG    format u'I verify workspaces schema' -> u'I verify workspaces schema'
+01-09 09:33 root         INFO     RequestHandler:: POST  https://www.pivotaltracker.com/services/v5/my/workspaces, {"name": "Workspace3"}, {'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'User-Agent': 'python-requests/2.20.1', 'Connection': 'keep-alive', 'X-TrackerToken': 'eca773db1a05aa626fea42c73f6384d2', 'Content-Type': 'application/json'}
+01-09 09:33 root         INFO     RequestHandler:: POST RESPONSE:: 200, {u'person_id': 3128917, u'kind': u'workspace', u'project_ids': [], u'id': 722868, u'name': u'Workspace3'}
+01-09 09:36 parse        DEBUG    format u'I create workspaces' -> u'I create workspaces'
+01-09 09:36 parse        DEBUG    format u'I verify workspaces schema' -> u'I verify workspaces schema'
+01-09 09:36 root         INFO     RequestHandler:: POST  https://www.pivotaltracker.com/services/v5/my/workspaces, {"name": "Workspace3"}, {'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'User-Agent': 'python-requests/2.20.1', 'Connection': 'keep-alive', 'X-TrackerToken': 'eca773db1a05aa626fea42c73f6384d2', 'Content-Type': 'application/json'}
+01-09 09:36 root         INFO     RequestHandler:: POST RESPONSE:: 400, {u'kind': u'error', u'code': u'invalid_parameter', u'general_problem': u'The workspace name you entered is already taken.', u'error': u'One or more request parameters was missing or invalid.'}

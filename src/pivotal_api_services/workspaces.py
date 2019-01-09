@@ -8,8 +8,8 @@ class WorkspacesServices(PivotalServices):
 
     def __init__(self):
         super(WorkspacesServices, self).__init__()
-        self.__workspace = "{}/accounts".format(self.request_handler.main_url)
-        self.__workspace_schema_path = "/src/core/api/json_schemas/project_schema.json"
+        self.__workspace = "{}/workspaces".format(self.request_handler.main_url)
+        self.__workspace_schema_path = "/src/core/api/json_schemas/workspaces_schema.json"
         self.workspace = {}
         self.workspace = {}
 
@@ -21,15 +21,15 @@ class WorkspacesServices(PivotalServices):
         workspace_list = self.request_handler.get_request(endpoint=self.__workspace).json()
         for workspace in workspace_list:
             if not workspace['name'] in self.workspace:
-                self.workspaces[workspace['name']] = workspace['id']
-        return self.workspaces
+                self.workspace[workspace['name']] = workspace['id']
+        return self.workspace
 
-    def get_workspace(self, id):
-        current_url = self.__workspace + "/" + id
-        workspace = self.request_handler.get_request(endpoint=current_url).json()
-        if not workspace['name'] in self.workspaces:
-            self.workspaces[workspace['name']] = workspace['id']
-        return workspace
+    #def get_workspace(self, id):
+     #   current_url = self.__workspace + "/" + id
+      #  workspace = self.request_handler.get_request(endpoint=current_url).json()
+       # if not workspace['name'] in self.workspaces:
+        #    self.workspaces[workspace['name']] = workspace['id']
+        #return workspace
 
     def get_workspace_schema(self):
         return StringHandler.convert_string_to_json(FileReader.get_file_content(self.__workspace_schema_path))

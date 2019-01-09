@@ -1,5 +1,5 @@
 api:
   #options in level
-  base_url: https://www.pivotaltracker.com/services/v5/
-  token: feb72616854c799587788f51be73007a
+  base_url: https://www.pivotaltracker.com/services/v5/my
+  token: eca773db1a05aa626fea42c73f6384d2
   log_path: .\pivotal_bdt.log

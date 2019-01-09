@@ -2,64 +2,63 @@
   "definitions": {},
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "http://example.com/root.json",
-  "type": "object",
+  "type": "array",
   "title": "The Root Schema",
-  "required": [
-    "created at",
-    "updated at",
-    "name",
-    "plan",
-    "status"
-   ],
-   "properties": {
-     "created at": {
-       "$id": "#/properties/created at",
-       "type": "string",
-       "title": "The Created at Schema",
-       "default": "",
-       "examples": [
-         "2019-01-07T21:42:45Z"
-       ],
-       "pattern": "^(.*)$"
-     },
-     "updated at": {
-       "$id": "#/properties/updated at",
-       "type": "string",
-       "title": "The Updated at Schema",
-       "default": "",
-       "examples": [
-         "2019-01-07T21:42:45Z"
-       ],
-       "pattern": "^(.*)$"
-     },
-     "name": {
-       "$id": "#/properties/name",
-       "type": "string",
-       "title": "The Name Schema",
-       "default": "",
-       "examples": [
-         "A green door"
-       ],
-       "pattern": "^(.*)$"
-     },
-     "plan": {
-       "$id": "#/properties/plan",
-       "type": "string",
-       "title": "The Plan Schema",
-       "default": "",
-       "examples": [
-         "Test"
-       ],
-       "pattern": "^(.*)$"
-     },
-     "status": {
-       "$id": "#/properties/status",
-       "type": "integer",
-       "title": "The Status Schema",
-       "default": 0,
-       "examples": [
-         200
-       ]
-     }
-   }
- }
+  "items": {
+    "$id": "#/items",
+    "type": "object",
+    "title": "The Items Schema",
+    "required": [
+      "kind",
+      "id",
+      "name",
+      "person_id",
+      "project_ids"
+    ],
+    "properties": {
+      "kind": {
+        "$id": "#/items/properties/kind",
+        "type": "string",
+        "title": "The Kind Schema",
+        "default": "",
+        "examples": [
+          "workspace"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "id": {
+        "$id": "#/items/properties/id",
+        "type": "integer",
+        "title": "The Id Schema",
+        "default": 0,
+        "examples": [
+          722856
+        ]
+      },
+      "name": {
+        "$id": "#/items/properties/name",
+        "type": "string",
+        "title": "The Name Schema",
+        "default": "",
+        "examples": [
+          "WorkspaceVZ"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "person_id": {
+        "$id": "#/items/properties/person_id",
+        "type": "integer",
+        "title": "The Person_id Schema",
+        "default": 0,
+        "examples": [
+          3128917
+        ]
+      },
+      "project_ids": {
+        "$id": "#/items/properties/project_ids",
+        "type": "array",
+        "title": "The Project_ids Schema"
+      }
+    }
+  }
+}
