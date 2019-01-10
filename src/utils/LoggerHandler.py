@@ -6,7 +6,7 @@ class LoggerHandler:
     __instance = None
 
     """
-    :return instance.
+    : return instance.
     """
     @staticmethod
     def get_instance():

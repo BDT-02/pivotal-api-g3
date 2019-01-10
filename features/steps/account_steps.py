@@ -8,7 +8,7 @@ account_services = AccountServices()
 
 @Given(u"I create an account")
 def create_account_step(context):
-    data = {"name": "AccCCC"}
+    data = {"account%5Bname%5D": "AccCCC"}
     context.account_status, context.project_response = account_services.create_account(data)
 
 
