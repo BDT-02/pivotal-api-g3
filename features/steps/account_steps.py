@@ -1,5 +1,5 @@
 
-from behave import Given, Then, step
+from behave import Given, then, step
 from src.pivotal_api_services.accounts import AccountServices
 from src.utils.json_schema_validator import validate_json_schema
 
@@ -12,7 +12,7 @@ def create_account_step(context):
     context.account_status, context.project_response = account_services.create_account(data)
 
 
-@Then(u'I verify account creation status is {status_code}')
+@then(u'I verify account creation status is {status_code}')
 def step_impl(context, status_code):
     print(context.account_status)
     assert context.account_status == int(status_code), "Account creation status is %s" % status_code

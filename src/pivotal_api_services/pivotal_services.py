@@ -8,3 +8,4 @@ class PivotalServices:
 
     def __init__(self):
         self.request_handler = RequestManager.get_instance()
+        print self.request_handler
