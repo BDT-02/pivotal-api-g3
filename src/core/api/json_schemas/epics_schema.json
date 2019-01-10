@@ -21,7 +21,7 @@
       "title": "The Id Schema",
       "default": 0,
       "examples": [
-        4191645
+        4195385
       ]
     },
     "kind": {
@@ -40,7 +40,7 @@
       "title": "The Created_at Schema",
       "default": "",
       "examples": [
-        "2019-01-07T01:17:31Z"
+        "2019-01-10T12:08:01Z"
       ],
       "pattern": "^(.*)$"
     },
@@ -50,7 +50,7 @@
       "title": "The Updated_at Schema",
       "default": "",
       "examples": [
-        "2019-01-07T01:17:31Z"
+        "2019-01-10T12:08:01Z"
       ],
       "pattern": "^(.*)$"
     },
@@ -60,7 +60,7 @@
       "title": "The Project_id Schema",
       "default": 0,
       "examples": [
-        2235851
+        2237166
       ]
     },
     "name": {
@@ -69,7 +69,7 @@
       "title": "The Name Schema",
       "default": "",
       "examples": [
-        "Tractor edgarrrrrr"
+        "epictest01"
       ],
       "pattern": "^(.*)$"
     },
@@ -79,7 +79,7 @@
       "title": "The Url Schema",
       "default": "",
       "examples": [
-        "https://www.pivotaltracker.com/epic/show/4191645"
+        "https://www.pivotaltracker.com/epic/show/4195385"
       ],
       "pattern": "^(.*)$"
     },
@@ -102,7 +102,7 @@
           "title": "The Id Schema",
           "default": 0,
           "examples": [
-            20864733
+            20880097
           ]
         },
         "project_id": {
@@ -111,7 +111,7 @@
           "title": "The Project_id Schema",
           "default": 0,
           "examples": [
-            2235851
+            2237166
           ]
         },
         "kind": {
@@ -130,7 +130,7 @@
           "title": "The Name Schema",
           "default": "",
           "examples": [
-            "tractor edgarrrrrr"
+            "epictest01"
           ],
           "pattern": "^(.*)$"
         },
@@ -140,7 +140,7 @@
           "title": "The Created_at Schema",
           "default": "",
           "examples": [
-            "2019-01-07T01:17:30Z"
+            "2019-01-10T12:07:47Z"
           ],
           "pattern": "^(.*)$"
         },
@@ -150,7 +150,7 @@
           "title": "The Updated_at Schema",
           "default": "",
           "examples": [
-            "2019-01-07T01:17:30Z"
+            "2019-01-10T12:07:47Z"
           ],
           "pattern": "^(.*)$"
         }
